@@ -34,6 +34,8 @@ os usuários têm a capacidade de personalizar seus perfis, adicionar filmes à 
 ## Instalação
  1. Clone o repositório no seu ambiente local ou servidor.
 
-CREATE DATABASE moviestar;
+```bash
+   git clone https://github.com/seunome/MovieStar.git
+```
 
 
