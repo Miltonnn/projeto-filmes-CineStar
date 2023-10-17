@@ -33,3 +33,6 @@ os usuários têm a capacidade de personalizar seus perfis, adicionar filmes à 
 
 ## Instalação
  1. Clone o repositório no seu ambiente local ou servidor.
+  ```bash
+ CREATE DATABASE moviestar;
+```
