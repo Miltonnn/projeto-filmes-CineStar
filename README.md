@@ -38,4 +38,53 @@ os usuários têm a capacidade de personalizar seus perfis, adicionar filmes à 
    git clone https://github.com/seunome/MovieStar.git
 ```
 
+2. Crie um banco de dados MySQL para a aplicação.
+
+```sql
+CREATE DATABASE moviestar;
+```
+
+3. Importe o arquivo SQL fornecido para criar as tabelas e adicionar os dados iniciais.
+```bash
+mysql -u seu_usuario -p moviestar < database.sql
+```
+
+4. Atualize as configurações de conexão com o banco de dados no arquivo `config.php` para corresponder às suas credenciais.
+
+```php
+// config.php
+
+$DB_HOST = 'localhost';
+$DB_NAME = 'moviestar';
+$DB_USER = 'seu_usuario_db';
+$DB_PASSWORD = 'sua_senha_db';
+```
+
+5. Certifique-se de que um servidor web (por exemplo, Apache) está configurado para servir a aplicação.
+6. Acesse a aplicação por meio de seu navegador.
+
+## Uso
+* Visite a página inicial para explorar os filmes mais recentes e suas categorias.
+* Explore diferentes categorias de filmes.
+* Realize login ou registre-se como um novo usuário para acessar recursos adicionais, como personalizar seu perfil, adicionar avaliações, classificações e comentários.
+* Utilize a pesquisa de filmes para encontrar seus filmes favoritos por nome.
+
+## Estrutura de Diretórios
+* `templates/`: Contém modelos de cabeçalho e rodapé usados em toda a aplicação.
+* `dao/`: Arquivos de Objetos de Acesso a Dados para operações no banco de dados.
+* `assets/`: Arquivos de CSS, JavaScript e imagens.
+* `index.php`: O ponto de entrada principal da aplicação.
+* `config.php`: Arquivo de configuração do banco de dados.
+
+## Contribuições
+
+<p>Você é encorajado a contribuir para o projeto, enviando problemas ou solicitações de pull no repositório do GitHub.</p>
+
+## Licença
+<p>Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para obter detalhes.</p>
+
+## Créditos
+<p>Este projeto foi desenvolvido por Milton Andrade.</p>
+
+
 
