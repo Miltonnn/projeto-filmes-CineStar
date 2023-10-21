@@ -76,12 +76,6 @@ $DB_PASSWORD = 'sua_senha_db';
 * `index.php`: O ponto de entrada principal da aplicação.
 * `config.php`: Arquivo de configuração do banco de dados.
 
-## Contribuições
-
-<p>Você é encorajado a contribuir para o projeto, enviando problemas ou solicitações de pull no repositório do GitHub.</p>
-
-## Licença
-<p>Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para obter detalhes.</p>
 
 ## Créditos
 <p>Este projeto foi desenvolvido por Milton Andrade.</p>
