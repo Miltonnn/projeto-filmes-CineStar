@@ -1,4 +1,4 @@
-# CineStar - Aplicação Web em PHP e MySQL
+# MovieStar - Aplicação Web em PHP e MySQL
 
 ## Descrição
 
