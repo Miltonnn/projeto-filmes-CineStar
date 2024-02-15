@@ -22,6 +22,10 @@ os usuários têm a capacidade de personalizar seus perfis, adicionar filmes à 
 
 ![Logo da Página](img/dashboard.png)
 
+## Filmes cadastrados
+
+![Logo da Página](img/CineStar.png)
+
 
 ## Recursos
 
