@@ -1,10 +1,27 @@
-# CineStar - Aplicação Web em PHP
+# CineStar - Aplicação Web em PHP e MySQL
 
 ## Descrição
 
 <p>O MovieStar é uma aplicação web em PHP que permite que os amantes do cinema explorem, avaliem, comentem e compartilhem informações sobre os filmes mais recentes.
 A aplicação é construída com PHP, MySQL, Bootstrap e jQuery, proporcionando uma experiência envolvente aos usuários. Além disso,
 os usuários têm a capacidade de personalizar seus perfis, adicionar filmes à coleção, realizar login e pesquisar filmes por nome.</p>
+
+## Tela de login
+
+![Logo da Página](img/login.png)
+
+## Seja bem vindo
+
+![Logo da Página](img/sejaBemVindo.png)
+
+## Adicionar filme
+
+![Logo da Página](img/adicionarFilme.png)
+
+## Dashboard
+
+![Logo da Página](img/dashboard.png)
+
 
 ## Recursos
 
